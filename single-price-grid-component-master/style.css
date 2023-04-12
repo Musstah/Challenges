@@ -1,0 +1,28 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-size: 16px;
+}
+
+.container {
+  display: grid;
+}
+
+.join-rect {
+  background-color: #fff;
+}
+
+.subsc-rect {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.why-us-rect {
+  background-color: hsl(179, 62%, 43%);
+}
