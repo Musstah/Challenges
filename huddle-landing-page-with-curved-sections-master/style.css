@@ -1,0 +1,214 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_header,
+.bottom-section-header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 0.2rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.starter_top_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+}
+
+
+.small_start_btn,
+.big_start_btn,
+.subscribe_btn {
+    background-color: transparent;
+    color: hsl(321, 100%, 78%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border: solid 0.15rem;
+    border-radius: 25px;
+    padding: 0 1.5rem;
+}
+
+.big_start_btn,
+.subscribe_btn {
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 30px;
+    padding: 1.25rem 6.25rem;
+    margin: 1.25rem 0 5rem 0;
+
+}
+
+.section_text {
+    padding: 0 26rem;
+    font-weight: 400;
+}
+
+.user_count_section {
+    display: flex;
+    flex-direction: row;
+}
+
+.user_count_section p {
+    font-weight: 600;
+}
+
+.user_count_section div {
+    margin: 5rem 11rem 0;
+}
+
+.count_nums {
+    margin: 0;
+    font-weight: 700;
+    font-size: 6rem;
+}
+
+.count_msg {
+    margin: 0;
+    text-align: center;
+    font-size: 1.35rem;
+    font-weight: 600;
+    opacity: 50%;
+}
+
+
+
+.section-inside-container {
+    background-color: hsl(207, 100%, 98%);
+    display: grid;
+    grid-gap: 0 10rem;
+    grid-template-columns: auto auto auto;
+    max-width: 1440px;
+
+}
+
+.section-inside-img {
+    position: relative;
+    top: 4px;
+}
+
+.section-inside-header {
+    grid-row: 1 / 2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+
+
+
+.section-inside-text {
+    grid-row: 2 / 3;
+    margin-left: 10rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.section-inside-div {
+    grid-row: span 2;
+    grid-column: span 2;
+    max-height: 500px;
+    margin-right: 10rem;
+}
+
+.section-inside-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.conv-text-col {
+    grid-column: 2/2;
+    grid-row: span 2;
+    margin: 10rem 0 10rem 0;
+}
+
+.conv-img-div {
+    height: 100%;
+    grid-column: 1/1;
+    grid-row: 1/3;
+    margin: 0 0 0 10rem;
+}
+
+.users-isnide-container {
+    background-color: #fff;
+    grid-template-columns: auto auto;
+    grid-gap: 0 4rem;
+    margin: 8rem 0 8rem;
+}
+
+.conv-header,
+.conv-text {
+    margin: 0;
+}
+
+.bottom-section-header {
+    font-size: 2.0rem;
+}
+
+.contact-section-container {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+}
+
+.bottom-section-col {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.bottom-section-col p,
+.bottom-logo,
+.bottom-section-icons,
+.sucription-input {
+    padding: 0 9.8rem;
+}
+
+
+.bottom-icon {
+    padding-right: 1rem;
+}
+
+.subscribe_btn {
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 0.065rem;
+    padding: 1rem 3.5rem;
+}
+
+.bottom-section-icons {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.bottom-section-icons svg {
+    padding-right: 1rem;
+}
